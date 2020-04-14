@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  background-color: dodgerblue;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.headertext {
+  border-style: solid;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+  border-style: solid;
+  margin: auto;
+}
+
+.titlebar {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  background-color: gray;
+  width: 1000px;
+  height: 25px;
+  margin: auto;
+  border-style: solid;
+  border-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.new {
+  width: 300px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.tile {
+  width: 300px;
+  border-bottom: 1px solid black;
+  display: inline-flexbox;
+}
+
+.notename {
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.maintext {
+  width: 700px;
+  border: none;
+}
+
+.textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+}
