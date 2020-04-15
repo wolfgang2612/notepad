@@ -6,11 +6,16 @@ Go to an empty directory
 
 ```
 npx create-react-app notepad
-cd notepad
+cd notepad/
 mkdir backend
-cd backend
+cd backend/
 npm init -y
 npm install express cors mongoose dotenv
+```
+
+```
+cd notepad/
+npm install axios
 ```
 
 ## Copying files
@@ -20,13 +25,13 @@ Copy all files from backend/ to backend/
 Copy all files from src/ to src/
  ```
  
- ## Start the backend
+ ## Start the backend in one terminal
  ```
  cd notepad/backend/
  node server.js
  ```
  
- ## Start the app
+ ## Start the app in another terminal
  ```
  cd notepad/
  npm start
