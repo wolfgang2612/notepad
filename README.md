@@ -9,7 +9,7 @@ npx create-react-app notepad
 cd notepad
 mkdir backend
 cd backend
-npm init
+npm init -y
 npm install express cors mongoose dotenv
 ```
 
