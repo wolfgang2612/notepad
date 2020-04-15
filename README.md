@@ -1,6 +1,9 @@
 # notepad
 A minimal notepad using reactjs
 
+# Pre requisites
+nodejs, npm and npx must be installed
+
 ## How to install
 Go to an empty directory
 
