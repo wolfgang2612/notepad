@@ -14,7 +14,7 @@ npm install express cors mongoose dotenv
 ```
 
 ## Last step
-Merge all the files and folders in notepad/ as seen on the repository
-Copy all files from backend/ to backend/
-Copy all files from src/ to src/
+#### Merge all the files and folders in notepad/ as seen on the repository
+#### Copy all files from backend/ to backend/
+#### Copy all files from src/ to src/
 
