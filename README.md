@@ -5,7 +5,7 @@ A minimal notepad using reactjs
 Go to an empty directory
 
 ```
-create-react-app notepad
+npx create-react-app notepad
 cd notepad
 mkdir backend
 cd backend
